@@ -113,4 +113,4 @@ if __name__ == "__main__":
     driver = PySelenium(url="https://www.baidu.com/")
 
     locator = ("id", "kw")
-    driver.find_element(locator=locator).send_keys("浪晋小课堂")
+    driver.find_element(locator=locator).send_keys("封装")
